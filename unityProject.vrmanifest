@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.omwclient.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\work\\repos\\unity-niokr\\vrclient\\Assets\\Core\\VRTK\\SteamVR_VRTK_Actions\\1\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "NIOKRPrototype [Testing]"
+        }
+      }
+    }
+  ]
+}

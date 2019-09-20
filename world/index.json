@@ -1,0 +1,250 @@
+{
+  "WorldId": 1,
+  "WorldName": "NIOKR",
+  "WorldLocations": [
+    {
+      "Id": 1,
+      "Sid": "f9c5c54b-ccdd-40ae-bd69-ba6d1330fd23",
+      "Name": "NIOKR",
+      "LocationId": 5,
+      "WorldLocationObjects": [
+        {
+          "InstanceId": 1,
+          "ObjectId": 12,
+          "Data": {
+            "Transform": {
+              "-161448": {
+                "PositionDT": {
+                  "x": -3.08772659,
+                  "y": 1.40628591,
+                  "z": 3.0224545
+                },
+                "RotationDT": {
+                  "w": 0.0,
+                  "x": 0.0,
+                  "y": 1.0,
+                  "z": 0.0
+                },
+                "ScaleDT": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 0.5
+                }
+              }
+            }
+          }
+        },
+        {
+          "InstanceId": 2,
+          "ObjectId": 22,
+          "Data": {
+            "Transform": {
+              "-31322": {
+                "PositionDT": {
+                  "x": -2.79,
+                  "y": 1.08,
+                  "z": 3
+                },
+                "RotationDT": {
+                  "w": 0,
+                  "x": 0,
+                  "y": 0,
+                  "z": 0
+                },
+                "ScaleDT": {
+                  "x": 0.6,
+                  "y": 0.6,
+                  "z": 0.6
+                }
+              }
+            }
+          }
+        },
+        {
+          "InstanceId": 3,
+          "ObjectId": 24,
+          "Data": {
+            "Transform": {
+              "-14736": {
+                "PositionDT": {
+                  "x": -3.37081861,
+                  "y": 1.03059506,
+                  "z": 3.02424717
+                },
+                "RotationDT": {
+                  "w": 0.00103065965,
+                  "x": -0.0027520922,
+                  "y": 0.729436755,
+                  "z": 0.684042037
+                },
+                "ScaleDT": {
+                  "x": 0.5,
+                  "y": 0.5,
+                  "z": 0.5
+                }
+              }
+            }
+          }
+        },
+        {
+          "InstanceId": 4,
+          "ObjectId": 25,
+          "Data": {
+            "Transform": {
+              "-3212": {
+                "PositionDT": {
+                  "x": -3.25054526,
+                  "y": 1.54363215,
+                  "z": 4.48105764
+                },
+                "RotationDT": {
+                  "w": 0.003597585,
+                  "x": 0.00552831357,
+                  "y": -0.9940372,
+                  "z": 0.108842254
+                },
+                "ScaleDT": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                }
+              }
+            }
+          }
+        },
+        {
+          "InstanceId": 5,
+          "ObjectId": 23,
+          "Data": {
+            "Transform": {
+              "-154016": {
+                "PositionDT": {
+                  "x": -2.161211,
+                  "y": 0.0,
+                  "z": 3.297546
+                },
+                "RotationDT": {
+                  "w": -0.4173609,
+                  "x": 0.00712348567,
+                  "y": 0.9086897,
+                  "z": -0.00649843
+                },
+                "ScaleDT": {
+                  "x": 1,
+                  "y": 1,
+                  "z": 1
+                }
+              }
+            }
+          }
+        }
+      ]
+  }
+  ],
+  "Locations": [
+    {
+      "Id": 5,
+      "Guid": "70d30b66-d9f5-4b33-a75a-479e516d3e7f",
+      "Name": "niokr",
+      "Resources": {
+        "Bundle": "/data/locations/niokr/bundle",
+        "Manifest": "/data/locations/niokr/bundle.manifest",
+        "Config": "/data/locations/niokr/bundle.json",
+        "Icon": "/data/locations/niokr/bundle.png",
+        "DllPath": "/data/locations/niokr"
+      }
+    }
+  ],
+  "Objects": [
+    {
+      "Id": 23,
+      "Guid": "779cbd2e-319f-4738-8177-b885fa3099a8",
+      "Config": {
+        "i18n": {
+          "en": "unity-chan",
+          "ru": "unity-chan"
+        },
+        "type": "Unitychan_779cbd2e319f47388177b885fa3099a8.UnitychanWrapper"
+      },
+      "Resources": {
+        "Bundle": "/data/objects/unitychan/bundle",
+        "Manifest": "/data/objects/unitychan/bundle.manifest",
+        "Config": "/data/objects/unitychan/bundle.json",
+        "Icon": "/data/objects/unitychan/bundle.png",
+        "DllPath": "/data/objects/unitychan"
+      }
+    },
+    {
+      "Id": 22,
+      "Guid": "5f902bc4-9778-4082-9bb6-16e9ab422571",
+      "Config": {
+        "i18n": {
+          "en": "lamp",
+          "ru": "Лампочка"
+        },
+        "type": "Lamp_5f902bc4977840829bb616e9ab422571.LampWrapper"
+      },
+      "Resources": {
+        "Bundle": "/data/objects/lamp/bundle",
+        "Manifest": "/data/objects/lamp/bundle.manifest",
+        "Config": "/data/objects/lamp/bundle.json",
+        "Icon": "/data/objects/lamp/bundle.png",
+        "DllPath": "/data/objects/lamp"
+      }
+    },
+    {
+      "Id": 25,
+      "Guid": "a7681181-8f26-4c0e-abfb-7b0bd0fa408a",
+      "Config": {
+        "i18n": {
+          "en": "display",
+          "ru": "дисплей"
+        },
+        "type": "Display_a76811818f264c0eabfb7b0bd0fa408a.DisplayWrapper"
+      },
+      "Resources": {
+        "Bundle": "/data/objects/display/bundle",
+        "Manifest": "/data/objects/display/bundle.manifest",
+        "Config": "/data/objects/display/bundle.json",
+        "Icon": "/data/objects/display/bundle.png",
+        "DllPath": "/data/objects/display"
+      }
+    },
+    {
+      "Id": 12,
+      "Guid": "af14e1a3-60a8-4554-8316-58623502aefd",
+      "Config": {
+        "i18n": {
+          "en": "Switch",
+          "ru": "Выключатель"
+        },
+        "type": "Switch_af14e1a360a84554831658623502aefd.SwitchWrapper"
+      },
+      "Resources": {
+        "Bundle": "/data/objects/switch/bundle",
+        "Manifest": "/data/objects/switch/bundle.manifest",
+        "Config": "/data/objects/switch/bundle.json",
+        "Icon": "/data/objects/switch/bundle.png",
+        "DllPath": "/data/objects/switch"
+      }
+    },
+    {
+      "Id": 24,
+      "Guid": "655e028c-55b7-4ea1-8528-16119ad532fc",
+      "Config": {        
+        "i18n": {
+          "en": "button",
+          "ru": "кнопка"
+        },
+        "type": "Button_655e028c55b74ea1852816119ad532fc.ButtonWrapper"
+      },
+      "Resources": {
+        "Bundle": "/data/objects/button/bundle",
+        "Manifest": "/data/objects/button/bundle.manifest",
+        "Config": "/data/objects/button/bundle.json",
+        "Icon": "/data/objects/button/bundle.png",
+        "DllPath": "/data/objects/button"
+      }
+    }
+  ]
+}

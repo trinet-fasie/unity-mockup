@@ -1,0 +1,215 @@
+{
+   "alias_info" : {},
+   "app_key" : "application.generated.unity.varwinclient.exe",
+   "bindings" : {
+      "/actions/vrtk" : {
+         "chords" : [
+            {
+               "inputs" : [
+                  [ "/user/hand/left/input/trigger", "click" ]
+               ],
+               "output" : "/actions/vrtk/in/buttononetouch"
+            }
+         ],
+         "haptics" : [
+            {
+               "output" : "/actions/vrtk/out/haptic",
+               "path" : "/user/hand/left/output/haptic"
+            },
+            {
+               "output" : "/actions/vrtk/out/haptic",
+               "path" : "/user/hand/right/output/haptic"
+            }
+         ],
+         "poses" : [
+            {
+               "output" : "/actions/vrtk/in/pose",
+               "path" : "/user/hand/left/pose/raw"
+            },
+            {
+               "output" : "/actions/vrtk/in/pose",
+               "path" : "/user/hand/right/pose/raw"
+            }
+         ],
+         "skeleton" : [
+            {
+               "output" : "/actions/vrtk/in/skeletonlefthand",
+               "path" : "/user/hand/left/input/skeleton/left"
+            },
+            {
+               "output" : "/actions/vrtk/in/skeletonrighthand",
+               "path" : "/user/hand/right/input/skeleton/right"
+            }
+         ],
+         "sources" : [
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/triggerbutton"
+                  },
+                  "pull" : {
+                     "output" : "/actions/vrtk/in/triggersqueeze"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vrtk/in/triggertouch"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/touchpadbutton"
+                  },
+                  "position" : {
+                     "output" : "/actions/vrtk/in/touchpadposition"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vrtk/in/touchpadtouch"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/left/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/buttononeclick"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vrtk/in/buttononetouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/x"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/buttontwoclick"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vrtk/in/buttontwotouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/y"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/vrtk/in/gripsqueeze"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/gripbutton"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/left/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/touchpadbutton"
+                  },
+                  "position" : {
+                     "output" : "/actions/vrtk/in/touchpadposition"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vrtk/in/touchpadtouch"
+                  }
+               },
+               "mode" : "joystick",
+               "path" : "/user/hand/right/input/joystick"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/triggerbutton"
+                  },
+                  "pull" : {
+                     "output" : "/actions/vrtk/in/triggersqueeze"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vrtk/in/triggertouch"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/trigger"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/buttononeclick"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vrtk/in/buttononetouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/x"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/buttontwoclick"
+                  },
+                  "touch" : {
+                     "output" : "/actions/vrtk/in/buttontwotouch"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/y"
+            },
+            {
+               "inputs" : {
+                  "pull" : {
+                     "output" : "/actions/vrtk/in/gripsqueeze"
+                  }
+               },
+               "mode" : "trigger",
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/gripbutton"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/grip"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/buttononeclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/a"
+            },
+            {
+               "inputs" : {
+                  "click" : {
+                     "output" : "/actions/vrtk/in/buttontwoclick"
+                  }
+               },
+               "mode" : "button",
+               "path" : "/user/hand/right/input/b"
+            }
+         ]
+      }
+   },
+   "controller_type" : "oculus_touch",
+   "description" : "",
+   "name" : "oculus_touch",
+   "options" : {},
+   "simulated_actions" : []
+}

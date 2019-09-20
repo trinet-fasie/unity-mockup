@@ -1,0 +1,34 @@
+﻿Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TMCore", "TMCore.csproj", "{1B113321-6E9E-E489-AA63-1ABA5EB10EC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamVR_Actions", "SteamVR_Actions.csproj", "{1446DE43-F403-F604-DC4F-4AB1391178FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{EB351E6E-B336-24CA-1F4C-1E694A0194B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B113321-6E9E-E489-AA63-1ABA5EB10EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B113321-6E9E-E489-AA63-1ABA5EB10EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B113321-6E9E-E489-AA63-1ABA5EB10EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B113321-6E9E-E489-AA63-1ABA5EB10EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1446DE43-F403-F604-DC4F-4AB1391178FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1446DE43-F403-F604-DC4F-4AB1391178FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1446DE43-F403-F604-DC4F-4AB1391178FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1446DE43-F403-F604-DC4F-4AB1391178FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB351E6E-B336-24CA-1F4C-1E694A0194B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB351E6E-B336-24CA-1F4C-1E694A0194B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB351E6E-B336-24CA-1F4C-1E694A0194B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB351E6E-B336-24CA-1F4C-1E694A0194B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+{
+  "apiHost": "http://localhost:9117",
+  "webHost": "http://localhost:9110",
+  "rabbitMqHost": "localhost",
+  "rabbitMqUserName": "creator",
+  "rabbitMqPass" : "a3malndl2n8sjllsad",
+  "rabbitMqPort" : "9113",
+  "photonHost": "127.0.0.1",
+  "photonPort" : "5055",
+  "enviropmentStorage" : "D:\\Environments\\",
+  "highlightEnabled" : true
+}

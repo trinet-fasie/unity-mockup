@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 3989596728
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fb8cdc4d03a0f6c8dc08cac3f288a70b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 952033b4e08259a42b51ea2014e00068
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 104
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b7f473b40cbf8c4fa4e8d66d8ff44a6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bd4f33ad1da4a6c4d99bc28238c47dfa, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 157
+  Script: {instanceID: 0}
+- Class: 258
+  Script: {instanceID: 0}
+Assets:
+- Assets/Locations/TestScene.unity
+Dependencies: []
